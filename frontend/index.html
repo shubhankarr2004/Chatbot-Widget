@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chatbot Widget</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Chat Icon with Assist Bubble -->
+  <div id="chat-container">
+    <div id="chat-icon">
+      <img src="airbot.png" alt="Chat Icon" />
+    </div>
+    <div id="assist-bubble">How may I assist you?</div>
+  </div>
+
+  <!-- Chat Box -->
+  <div id="chat-box" class="hidden">
+    <div id="chat-content-wrapper">
+      <div id="messages"></div>
+      
+      <!-- ✅ Corrected input + button wrapper -->
+      <div id="input-wrapper">
+        <input type="text" id="user-input" placeholder="Type a message..." />
+        <button id="send-button">Send</button> <!-- ✅ Updated ID to match JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Bot sound -->
+  <audio id="bot-sound" src="ping.mp3" preload="auto"></audio>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
