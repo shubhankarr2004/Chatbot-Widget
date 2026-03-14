@@ -46,17 +46,7 @@ python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate    # On Windows
 
-Dependencies include:
-- Flask
-- Flask-CORS
-- PyMuPDF (`fitz`)
-- pdfplumber
-- langchain
-- langchain-community
-- langchain-huggingface
-- langchain-google-genai
-- faiss-cpu
-- python-dotenv
+pip install -r requirements.txt
 
 ### 3. Set Up Environment Variables
 Create a `.env` file in the project root and add your Gemini API key:
