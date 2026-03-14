@@ -46,9 +46,6 @@ python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate    # On Windows
 
-pip install -r requirements.txt
-```
-
 Dependencies include:
 - Flask
 - Flask-CORS
@@ -82,11 +79,6 @@ Click on the floating chat icon to start chatting with the bot.
 
 ---
 
-## 🖼️ Demo Preview
-![Chatbot Screenshot](demo-screenshot.png)
-
----
-
 ## 🚀 Future Improvements
 - Persistent FAISS index to avoid re-processing on restart
 - Dark mode toggle for the widget
@@ -102,7 +94,7 @@ This project is licensed under the MIT License – feel free to use and modify.
 
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
-PS: You might have to change the LLM model before running, as Google keeps updating them!
+PS: You might need to update the LLM model before running it, as Google keeps updating it!
 
 ---
 
