@@ -38,10 +38,7 @@ It can extract information from multiple PDFs (including text and tables) and an
 ## ⚡ Setup Instructions
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/pdf-chatbot-widget.git
-cd pdf-chatbot-widget
-```
+git clone https://github.com/shubhankarr2004/Chatbot-Widget
 
 ### 2. Create Virtual Environment & Install Dependencies
 ```bash
